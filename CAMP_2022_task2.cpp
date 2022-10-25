@@ -70,6 +70,8 @@ int main()
 	// Creating a copy of the matrix //
 	std::vector<std::vector<bool>> modified_matrix(initial_matrix);
 
+	std::cout << "Initial matrix:\n";
+
 	PrintMatrix(initial_matrix);
 
 	// Matrix modification //
@@ -89,7 +91,7 @@ int main()
 		initial_matrix = modified_matrix;
 	}
 
-	std::cout << '\n';
+	std::cout << "\nModified matrix:\n";
 	PrintMatrix(modified_matrix);
 
 	return 0;
