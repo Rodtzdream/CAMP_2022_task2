@@ -71,7 +71,6 @@ int main()
 	std::vector<std::vector<bool>> modified_matrix(initial_matrix);
 
 	std::cout << "Initial matrix:\n";
-
 	PrintMatrix(initial_matrix);
 
 	// Matrix modification //
